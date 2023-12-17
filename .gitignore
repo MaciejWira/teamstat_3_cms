@@ -1,0 +1,105 @@
+#---------------------------
+# WordPress general
+#---------------------------
+/wp-admin/
+/wp-content/index.php
+/wp-content/languages
+/wp-content/plugins/index.php
+/wp-content/themes/index.php
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+.htaccess
+
+
+#---------------------------
+# WordPress themes
+#---------------------------
+/wp-content/themes/*
+!/wp-content/themes/teamstat
+
+#---------------------------
+# WP uploads directory
+#---------------------------
+/wp-content/uploads/
+
+#---------------------------
+# WP upgrade files
+#---------------------------
+/wp-content/upgrade/
+
+#---------------------------
+# OS-specific files
+#---------------------------
+.DS_Store
+.Trashes
+Thumbs.db
+
+#---------------------------
+# Composer
+#---------------------------
+.env
+.env.*
+!.env.example
+
+#---------------------------
+# Smart Plugin Manager
+#---------------------------
+/.logs/
+/wp-content/autoupdater_maintenance_mode_enabled.tmp
+
+#---------------------------
+# large/disallowed file types
+# a CDN should be used for these
+#---------------------------
+*.hqx
+*.bin
+*.exe
+*.dll
+*.deb
+*.dmg
+*.iso
+*.img
+*.msi
+*.msp
+*.msm
+*.mid
+*.midi
+*.kar
+*.mp3
+*.ogg
+*.m4a
+*.ra
+*.3gpp
+*.3gp
+*.mp4
+*.mpeg
+*.mpg
+*.mov
+*.webm
+*.flv
+*.m4v
+*.mng
+*.asx
+*.asf
+*.wmv
+*.avi
+*.log
+
+
+# JetBrains IDEs
+#---------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# Local setups
+#---------------------------
+**/.history
+nginx.conf
+local-xdebuginfo.php
